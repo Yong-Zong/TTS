@@ -3,7 +3,6 @@ import pyttsx3
 import speech_recognition as sr 
 from tkinter import*
 
-
 def text_to_speech():
     # 建立語音辨識器
     r = sr.Recognizer()
@@ -50,8 +49,6 @@ def text_to_speech():
 window=Tk()
 window.title("聊天")
 window.geometry('400x150')
-
-
 
 # 創建按鈕
 btn=Button(window,text="開始",command=lambda:text_to_speech())
