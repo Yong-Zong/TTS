@@ -18,6 +18,8 @@ with sr.Microphone() as source:
 
     audio = r.listen(source)
 
+
+
 # 語音辨識
 try:
     print("您說的是：" + r.recognize_google(audio, language="zh-TW"))
